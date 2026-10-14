@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Sean Maverick V. Villangca, Information Technology Specialist">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="scroll-progress" id="scroll-progress"></div>
+    <div class="container header-inner">
+      <a href="#about" class="brand">Sean Maverick V. Villangca</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode">Dark mode</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="about" id="about">
+      <div class="container hero">
+        <div class="hero-text">
+          <p class="greeting">Hello, I'm Sean.</p>
+          <h1>I solve technical problems quickly and explain the fix clearly.</h1>
+          <p class="intro">
+            I'm an Information Technology Specialist with experience in telecommunications, retail,
+            and customer service. I handle Tier 2 and Tier 3 support for business and home users,
+            and I'm comfortable working across Windows, Linux, and Mac systems.
+          </p>
+          <p class="bio">
+            I'm based in San Rafael, Bulacan. I enjoy getting problems resolved on the first try,
+            and I'm now building web development skills to go with my IT background.
+          </p>
+          <a href="#projects" class="btn">View my projects</a>
+        </div>
+
+        <div class="photo-frame">
+          <img src="images/profile.png" alt="Profile photo of Sean Maverick V. Villangca" width="320" height="413">
+        </div>
+      </div>
+
+      <div class="container details">
+        <div class="detail-block">
+          <h2>Skills</h2>
+          <ul class="skill-list">
+            <li>Hardware installations</li>
+            <li>Software updates</li>
+            <li>Operations management</li>
+            <li>Machine learning</li>
+            <li>Computer hardware knowledge</li>
+            <li>Computer software knowledge</li>
+          </ul>
+        </div>
+
+        <div class="detail-block">
+          <h2>Education</h2>
+          <p class="detail-title">Bachelor of Science in Information Technology</p>
+          <p class="detail-sub">Malolos, Bulacan, Philippines</p>
+        </div>
+
+        <div class="detail-block detail-wide">
+          <h2>Experience</h2>
+          <p class="detail-title">Information Technology Specialist</p>
+          <ul class="experience-list">
+            <li>Monitored hardware, server resources, systems, and key processes every day.</li>
+            <li>Managed the server room, wireless network, audiovisual equipment, laptops, and video conferencing equipment.</li>
+            <li>Set up network profiles, security permissions, and file sharing.</li>
+            <li>Resolved escalated issues as the subject matter expert.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-note">One site I built, and highlights from my IT work.</p>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Personal Portfolio</h3>
+            <p>This website, built with semantic HTML, Flexbox and Grid, and JavaScript for the mobile menu and dark mode.</p>
+            <p class="tags">HTML, CSS, JavaScript</p>
+          </article>
+
+          <article class="card">
+            <h3>Server Room and Network Management</h3>
+            <p>Managed the server room, wireless network, and server infrastructure, including security permissions and file sharing.</p>
+            <p class="tags">Networking, Servers, Security</p>
+          </article>
+
+          <article class="card">
+            <h3>System Monitoring</h3>
+            <p>Checked every day that hardware, server resources, and key processes were available and working correctly.</p>
+            <p class="tags">Monitoring, Hardware, Systems</p>
+          </article>
+
+          <article class="card">
+            <h3>Tier 2 and 3 Technical Support</h3>
+            <p>Resolved escalated, complex issues on Windows, Linux, and Mac for business and home users.</p>
+            <p class="tags">Troubleshooting, Windows, Linux, Mac</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <div class="footer-text">
+        <h2>Contact</h2>
+        <p>Have a question or a project in mind? Send me an email.</p>
+      </div>
+
+      <ul class="contact-list">
+        <li><a href="mailto:seanvillangca30@gmail.com">seanvillangca30@gmail.com</a></li>
+        <li><a href="https://github.com/shxanvillangca" target="_blank" rel="noopener">github.com/shxanvillangca</a></li>
+      </ul>
+    </div>
+    <p class="copyright">&copy; 2026 Sean Maverick V. Villangca</p>
+  </footer>
+
+</body>
+</html>
